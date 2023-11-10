@@ -1,0 +1,40 @@
+body{
+    madding:0px;
+    margin: 0px;
+}
+
+.head{
+        margin: 90px 0 0 30px;
+}
+div.form_nhanvien, div.list_nhanvien{
+    width : 550px;
+    border: 1px solid #ccc;
+    margin: 25px;
+    padding:10px ;
+    float:left;
+
+}
+div.list_nhanvien{
+    width:600px;
+}
+.h3{
+    padding: 0px;
+    margin-top:0px;
+
+}
+div.form_nhanvien label{
+    width: 100px;
+    float: left;
+}
+/* [type = "text " ] là loại bỏ các nút button */
+div.form_nhanvien input[type="text"], button {
+    margin-bottom:10px;
+    width:200px;
+    padding: 5px;
+}
+button{
+    margin-top: 15px;
+}
+.error{
+    color:RED;
+}
